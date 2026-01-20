@@ -1,0 +1,8 @@
+{
+  "name": "Org. Krampo Modern",
+  "description": "A comprehensive organization management platform featuring member directories, task tracking, event scheduling, and an AI-powered organizational assistant.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

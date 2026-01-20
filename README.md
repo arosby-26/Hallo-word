@@ -1,29 +1,20 @@
-llo-word
-Selamat Datang di ruang repositori yang baru,
-# 🏛️ OKM - Organisasi Krampo Modern
-> **Platform Manajemen Organisasi Terintegrasi dengan Kecerdasan Buatan.**
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-OKM (Organisasi Krampo Modern) adalah solusi digital untuk mengelola administrasi, keuangan, dan komunikasi organisasi dalam satu platform yang estetik dan efisien.
+# Run and deploy your AI Studio app
 
-## ✨ Fitur Utama
-- **🤖 AI Organizational Intelligence**: Dapatkan tips manajemen otomatis dan buat draf surat resmi dalam hitungan detik menggunakan Gemini AI.
-- **💰 Financial Dashboard**: Pantau arus kas (Pemasukan & Pengeluaran) dengan statistik yang transparan.
-- **👥 Member Directory**: Database anggota yang rapi dengan fitur pencarian dan manajemen peran.
-- **📋 Task & Event Tracking**: Papan tugas bergaya Kanban dan kalender acara interaktif.
-- **📸 Member Activity Feed**: Ruang bagi anggota untuk mengunggah dokumentasi kegiatan secara langsung.
+This contains everything you need to run your app locally.
 
-## 🚀 Teknologi
-- **Core**: React.js 19 & TypeScript
-- **Styling**: Tailwind CSS (Premium Glassmorphism)
-- **AI Engine**: Google Gemini API (@google/genai)
-- **Icons**: Lucide React
-- **Visualization**: Recharts
+View your app in AI Studio: https://ai.studio/apps/drive/1s4rPKxrdYtjFoxqEhFANv462Q_BpwtK0
 
-## 🛠️ Cara Penggunaan
-1. Clone repositori ini.
-2. Pasang dependensi dengan `npm install`.
-3. Jalankan aplikasi dengan `npm start`.
-4. Pastikan `API_KEY` Gemini sudah terkonfigurasi di environment variable Anda.
+## Run Locally
 
----
-*Dibuat untuk kemajuan organisasi yang lebih transparan dan modern.*
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
