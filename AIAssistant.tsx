@@ -1,4 +1,4 @@
-
+#halloworld okm organisasi krampo modern
 import React, { useState } from 'react';
 import { Sparkles, Copy, RotateCcw, FileText, Megaphone, Wallet } from 'lucide-react';
 import { generateAnnouncement, summarizeMeetingMinutes, analyzeFinancialStatus } from '../services/geminiService';
